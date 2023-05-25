@@ -44,4 +44,12 @@ print(candyTaste)
 # -> returns 'None', which is nil or null
 
 
+# Python functions:
+def addNumbers(a, b):
+    return a + b
+
+print("Addnumbers function says...", addNumbers(5,7))
+
+
+
 
