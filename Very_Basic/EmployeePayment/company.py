@@ -1,4 +1,4 @@
-from employeeClass import CreateEmployee
+from employeeClass import CreateEmployee, CreateHourlyEmployee, CreateSalaryEmployee, CreateCommissionEmployee
 
 class Company:
     def __init__(self):
@@ -20,11 +20,14 @@ class Company:
 
 myCompany = Company()
 
-myCompany.addEmployee(CreateEmployee("Dwight", "Schrute", 95000))  # Dwight schrute is the top salesman! Of course he gets paid more than his other salesman!
-myCompany.addEmployee(CreateEmployee("Stanley", "Hudson", 85000))
-myCompany.addEmployee(CreateEmployee("Jim", "Halpert", 85000))
-myCompany.addEmployee(CreateEmployee("Michael", "Scott", 120000))
-myCompany.addEmployee(CreateEmployee("David", "Wallace", 500000))
+myCompany.addEmployee(CreateCommissionEmployee("Dwight", "Schrute", 85000, 250, 5))  # Dwight schrute is the top salesman! Of course he gets paid more than his other salesman!
+myCompany.addEmployee(CreateCommissionEmployee("Jim", "Halpert", 85000, 150, 5))
+
+myCompany.addEmployee(CreateSalaryEmployee("Michael", "Scott", 120000))
+myCompany.addEmployee(CreateSalaryEmployee("David", "Wallace", 500000))
+
+myCompany.addEmployee(CreateHourlyEmployee("John", "Doe", 25, 50))
+myCompany.addEmployee(CreateHourlyEmployee("Tom", "Brady", 40, 15))
 
 print(myCompany.Employees)
 
