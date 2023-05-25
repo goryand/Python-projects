@@ -51,5 +51,15 @@ def addNumbers(a, b):
 print("Addnumbers function says...", addNumbers(5,7))
 
 
+try:
+    print(1 + "2")
+except:
+    print("No!! Exception!!!")
+finally:
+    print("I will always print at the end of a try and except block")
+
+
+
+
 
 
