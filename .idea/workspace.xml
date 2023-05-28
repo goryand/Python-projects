@@ -48,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684935771312</updated>
-      <workItem from="1684935772794" duration="17706000" />
+      <workItem from="1684935772794" duration="18962000" />
     </task>
     <servers />
   </component>
@@ -58,6 +58,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_projects$index.coverage" NAME="index Coverage Results" MODIFIED="1685031310431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeatherHelper" />
     <SUITE FILE_PATH="coverage/Python_projects$company.coverage" NAME="company Coverage Results" MODIFIED="1685037429989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Very_Basic/EmployeePayment" />
-    <SUITE FILE_PATH="coverage/Python_projects$Notes.coverage" NAME="Notes Coverage Results" MODIFIED="1685033778189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/Python_projects$Notes.coverage" NAME="Notes Coverage Results" MODIFIED="1685037724899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
   </component>
 </project>
